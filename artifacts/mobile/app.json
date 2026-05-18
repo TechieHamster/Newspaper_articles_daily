@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "CAT Newspaper Extractor",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "mobile",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1c3557"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "name": "CAT Newspaper Extractor",
+      "shortName": "CAT Prep",
+      "description": "Daily MCQ practice from The Hindu, Business Line, Live Mint and Business Standard for CAT exam preparation.",
+      "lang": "en",
+      "themeColor": "#0f172a",
+      "backgroundColor": "#f1f5f9"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
